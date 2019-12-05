@@ -1,0 +1,46 @@
+#logo {
+	/*width: 184px;*/
+	height: 4rem;
+}
+.nav-textbox-search {
+	width: 33rem !important;
+    height: 3rem !important;
+    background-color: #f1f3f4 !important;
+    border: none !important;
+}
+.box-shadow-nav {
+	box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+.card-ketqua {
+	display: inline-flex;
+	padding: 0.5rem;
+	border-radius: 8px;
+	border: 1px solid #dadce0;
+}
+.card-img-left	 {
+	border-radius: 8px;
+	width: 8rem;
+}
+
+/*Begin; Responsive*/
+/* Dành cho điện thoại */
+@media all and (min-width: 320px) {...<span style="line-height: 1.5;">}</span>
+ 
+/* Dành cho máy tính bảng chiều dọc */
+@media all and (min-width: 600px) {
+	.nav-textbox-search {
+		width: 17rem !important;
+
+	}
+}
+ 
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (min-width: 1024px) {...}
+ 
+/* Dành cho màn hình desktop */
+@media all and (min-width: 1280px) {...}
+/*End; Responsove*/
